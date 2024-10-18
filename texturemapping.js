@@ -3,6 +3,6 @@ fetch('header.html')
             .then(data => {
                 document.getElementById('header').innerHTML = data;
                 const script = document.createElement('script');
-                script.src = 'header.js'; 
+                script.src = 'header.js';
                 document.body.appendChild(script);
             });
